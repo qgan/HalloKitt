@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5648BEDC1D041B0900F2A214 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5648BEDB1D041B0900F2A214 /* main.m */; };
+		562FC3301D041C3500B5062B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 562FC32F1D041C3500B5062B /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5648BED61D041B0900F2A214 /* CopyFiles */ = {
+		562FC32A1D041C3500B5062B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5648BED81D041B0900F2A214 /* HalloKitt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HalloKitt; sourceTree = BUILT_PRODUCTS_DIR; };
-		5648BEDB1D041B0900F2A214 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		562FC32C1D041C3500B5062B /* HalloKitt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HalloKitt; sourceTree = BUILT_PRODUCTS_DIR; };
+		562FC32F1D041C3500B5062B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5648BED51D041B0900F2A214 /* Frameworks */ = {
+		562FC3291D041C3500B5062B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5648BECF1D041B0900F2A214 = {
+		562FC3231D041C3500B5062B = {
 			isa = PBXGroup;
 			children = (
-				5648BEDA1D041B0900F2A214 /* HalloKitt */,
-				5648BED91D041B0900F2A214 /* Products */,
+				562FC32E1D041C3500B5062B /* HalloKitt */,
+				562FC32D1D041C3500B5062B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5648BED91D041B0900F2A214 /* Products */ = {
+		562FC32D1D041C3500B5062B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5648BED81D041B0900F2A214 /* HalloKitt */,
+				562FC32C1D041C3500B5062B /* HalloKitt */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5648BEDA1D041B0900F2A214 /* HalloKitt */ = {
+		562FC32E1D041C3500B5062B /* HalloKitt */ = {
 			isa = PBXGroup;
 			children = (
-				5648BEDB1D041B0900F2A214 /* main.m */,
+				562FC32F1D041C3500B5062B /* main.m */,
 			);
 			path = HalloKitt;
 			sourceTree = "<group>";
@@ -65,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5648BED71D041B0900F2A214 /* HalloKitt */ = {
+		562FC32B1D041C3500B5062B /* HalloKitt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5648BEDF1D041B0900F2A214 /* Build configuration list for PBXNativeTarget "HalloKitt" */;
+			buildConfigurationList = 562FC3331D041C3500B5062B /* Build configuration list for PBXNativeTarget "HalloKitt" */;
 			buildPhases = (
-				5648BED41D041B0900F2A214 /* Sources */,
-				5648BED51D041B0900F2A214 /* Frameworks */,
-				5648BED61D041B0900F2A214 /* CopyFiles */,
+				562FC3281D041C3500B5062B /* Sources */,
+				562FC3291D041C3500B5062B /* Frameworks */,
+				562FC32A1D041C3500B5062B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,53 +79,53 @@
 			);
 			name = HalloKitt;
 			productName = HalloKitt;
-			productReference = 5648BED81D041B0900F2A214 /* HalloKitt */;
+			productReference = 562FC32C1D041C3500B5062B /* HalloKitt */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5648BED01D041B0900F2A214 /* Project object */ = {
+		562FC3241D041C3500B5062B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = www.QuanGan.com;
 				TargetAttributes = {
-					5648BED71D041B0900F2A214 = {
+					562FC32B1D041C3500B5062B = {
 						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
-			buildConfigurationList = 5648BED31D041B0900F2A214 /* Build configuration list for PBXProject "HalloKitt" */;
+			buildConfigurationList = 562FC3271D041C3500B5062B /* Build configuration list for PBXProject "HalloKitt" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 5648BECF1D041B0900F2A214;
-			productRefGroup = 5648BED91D041B0900F2A214 /* Products */;
+			mainGroup = 562FC3231D041C3500B5062B;
+			productRefGroup = 562FC32D1D041C3500B5062B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5648BED71D041B0900F2A214 /* HalloKitt */,
+				562FC32B1D041C3500B5062B /* HalloKitt */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5648BED41D041B0900F2A214 /* Sources */ = {
+		562FC3281D041C3500B5062B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5648BEDC1D041B0900F2A214 /* main.m in Sources */,
+				562FC3301D041C3500B5062B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5648BEDD1D041B0900F2A214 /* Debug */ = {
+		562FC3311D041C3500B5062B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -168,7 +168,7 @@
 			};
 			name = Debug;
 		};
-		5648BEDE1D041B0900F2A214 /* Release */ = {
+		562FC3321D041C3500B5062B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,14 +204,14 @@
 			};
 			name = Release;
 		};
-		5648BEE01D041B0900F2A214 /* Debug */ = {
+		562FC3341D041C3500B5062B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		5648BEE11D041B0900F2A214 /* Release */ = {
+		562FC3351D041C3500B5062B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -221,24 +221,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5648BED31D041B0900F2A214 /* Build configuration list for PBXProject "HalloKitt" */ = {
+		562FC3271D041C3500B5062B /* Build configuration list for PBXProject "HalloKitt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5648BEDD1D041B0900F2A214 /* Debug */,
-				5648BEDE1D041B0900F2A214 /* Release */,
+				562FC3311D041C3500B5062B /* Debug */,
+				562FC3321D041C3500B5062B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5648BEDF1D041B0900F2A214 /* Build configuration list for PBXNativeTarget "HalloKitt" */ = {
+		562FC3331D041C3500B5062B /* Build configuration list for PBXNativeTarget "HalloKitt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5648BEE01D041B0900F2A214 /* Debug */,
-				5648BEE11D041B0900F2A214 /* Release */,
+				562FC3341D041C3500B5062B /* Debug */,
+				562FC3351D041C3500B5062B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5648BED01D041B0900F2A214 /* Project object */;
+	rootObject = 562FC3241D041C3500B5062B /* Project object */;
 }
